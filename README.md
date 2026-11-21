@@ -16,7 +16,7 @@
 
 ### ⚡ Download Latest Release
 
-<a href="https://github.com/aaziprojects/Snipflux/releases/latest/download/Snipflux-Windows.exe">
+<a href="https://github.com/aaziprojects/Snipflux/releases/latest/download/Snipflux-Windows.zip">
   <img src="https://img.shields.io/badge/Download_for_Windows-Snipflux--Windows.exe-00E5FF?style=for-the-badge&logo=windows&logoColor=black" alt="Download for Windows" height="42"/>
 </a>
 &nbsp;&nbsp;
@@ -54,7 +54,7 @@ You don't need Python, Git, or command-line tools to use Snipflux.
 ```
 
 ### 1️⃣ Launch Snipflux
-Download **`Snipflux-Windows.exe`** (Windows) or **`Snipflux-macOS.zip`** (macOS) from the release buttons above and open the application.
+Download **`Snipflux-Windows.zip`** (Windows) or **`Snipflux-macOS.zip`** (macOS) from the release buttons above and open the application.
 
 ### 2️⃣ Paste Video URL & Choose Export Folder
 - Paste your YouTube video, Twitch VOD, or local video path into the **Stream URL** box.
