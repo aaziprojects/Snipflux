@@ -24,14 +24,9 @@
   <img src="https://img.shields.io/badge/Download_for_macOS-Snipflux--macOS.zip-00FFB2?style=for-the-badge&logo=apple&logoColor=black" alt="Download for macOS" height="42"/>
 </a>
 <br/><br/>
-<a href="https://github.com/aaziprojects/Snipflux/releases/latest/download/Snipflux-Android-APKs">
+<a href="https://github.com/aaziprojects/Snipflux/releases/latest/download/Snipflux-Android-APKs.zip">
   <img src="https://img.shields.io/badge/Download_for_Android-Snipflux--Android.apk-00E5FF?style=for-the-badge&logo=android&logoColor=black" alt="Download for Android" height="42"/>
 </a>
-&nbsp;&nbsp;
-<a href="https://github.com/aaziprojects/Snipflux/releases/latest/download/Snipflux-iOS.ipa">
-  <img src="https://img.shields.io/badge/Download_for_iPhone%2FiOS-Snipflux--iOS.ipa-00FF87?style=for-the-badge&logo=apple&logoColor=black" alt="Download for iPhone / iOS" height="42"/>
-</a>
-
 <br/><br/>
 
 *Zero dependencies. Zero cloud subscriptions. 100% private offline AI on desktop & mobile.*
@@ -50,7 +45,7 @@
       <p align="center"><em>High-contrast dark-mode dashboard with one-click presets, CUDA/VideoToolbox acceleration, and real-time viral clip generation.</em></p>
     </td>
     <td width="32%" align="center" valign="top" style="border: none; padding: 10px;">
-      <h3 align="center">📱 Mobile Studio (Android & iOS)</h3>
+      <h3 align="center">📱 Mobile Studio (Android)</h3>
       <a href="assets/mobile-preview.png"><img src="assets/mobile-preview.png" alt="Snipflux Mobile App UI" width="100%" style="border-radius: 14px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" /></a>
       <p align="center"><em>Pocket-sized on-device AI clipping studio: on-device Whisper, MediaCodec hardware rendering, and instant YouTube share-sheet receiver.</em></p>
     </td>
@@ -70,12 +65,12 @@
 
 ---
 
-### 📱 Mobile App Highlights (Android & iOS)
+### 📱 Mobile App Highlights (Android)
 
 - **🧠 3–4 GB RAM Low-Memory Engine**: Quantized on-device speech AI (`whisper.cpp` / `whisper_flutter_new`) with 30-second sliding chunk processing that caps peak RAM strictly under **350 MB**—runs smoothly on budget phones without triggering Android's Out-Of-Memory (OOM) killer.
 - **🛡️ Pre-Download Storage Guard**: Scans required space (`streamSize * 2.5 + 300 MB` buffer) against available device storage before downloading; warns and blocks low-storage errors before they happen.
 - **📲 YouTube Share-Sheet Integration**: Tap *Share → Snipflux* directly within YouTube or your mobile browser to load and clip streams in one touch.
-- **⚡ Hardware-Accelerated 9:16 Video Pipeline**: Employs Android `h264_mediacodec` and iOS `h264_videotoolbox` hardware encoders for rapid rendering without thermal throttling.
+- **⚡ Hardware-Accelerated 9:16 Video Pipeline**: Employs Android `h264_mediacodec` hardware encoders for rapid rendering without thermal throttling.
 - **💾 1-Tap Save to Gallery & Social Export**: Dedicated vertical 9:16 reels player with instant one-tap **Save to Camera Roll / Gallery** and direct sharing to **TikTok, YouTube Shorts, and Instagram Reels**.
 
 ---
@@ -92,10 +87,7 @@ You don't need Python, Git, or command-line tools to use Snipflux.
 
 ### 1️⃣ Launch Snipflux
 - **Desktop (Windows/macOS):** Download **`Snipflux-Windows.zip`** (Windows) or **`Snipflux-macOS.zip`** (macOS) from the release buttons above and open the application.
-- **Android:** Download **`Snipflux-Android.apk`**, open the file, tap **Install** (enable *Install Unknown Apps* if prompted), and grant media permissions.
-- **iPhone / iOS:** Download **`Snipflux-iOS.ipa`** and sideload via **SideStore** (no PC needed after initial setup) or **AltStore**:
-  1. In SideStore/AltStore on your iPhone, tap `+` and choose `Snipflux-iOS.ipa`.
-  2. Sideload and trust your developer certificate under **Settings → General → VPN & Device Management**.
+- **Android:** Download **`Snipflux-Android-APKs.zip`**, open the file, extract it and tap **Install** (enable *Install Unknown Apps* if prompted), and grant media permissions.
 
 ### 2️⃣ Paste Video URL & Choose Export Folder
 - Paste your YouTube video, Twitch VOD, or local video path into the **Stream URL** box (or tap **Share → Snipflux** on your phone).
