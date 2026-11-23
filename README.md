@@ -8,7 +8,7 @@
 *Transform Full-Length Videos & Streams into Viral 9:16 Shorts with 100% Local AI*
 
 [![Release](https://img.shields.io/badge/Release-v2.5.0-00E5FF.svg?style=flat-square)](../../releases)
-[![Platform](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Android%20%7C%20iOS-00FF87.svg?style=flat-square)](#download)
+[![Platform](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Android-00FF87.svg?style=flat-square)](#download)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%26%20Offline-blueviolet.svg?style=flat-square)](#)
 [![License](https://img.shields.io/badge/License-Proprietary-gray.svg?style=flat-square)](#)
 
